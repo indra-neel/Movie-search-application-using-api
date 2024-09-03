@@ -1,0 +1,100 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styling the body */
+body {
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Container for the form */
+form {
+    background: #3a3f47;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #fda085;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #fda085;
+    outline: none;
+}
+
+button {
+    background: #fda085;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #f6d365;
+}
+
+#movieResults {
+    margin-top: 1rem;
+}
+
+.movie-item {
+    margin-bottom: 1rem;
+    background: #4a4f57;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.movie-item img {
+    width: 50px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.movie-item h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.movie-item p {
+    color: #ccc;
+}
